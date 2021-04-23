@@ -3,7 +3,7 @@
 exports[`Home component renderer 1`] = `
 <styled.div>
   <styled.p>
-    welcome home
+    welcome home: pipeline
   </styled.p>
 </styled.div>
 `;
