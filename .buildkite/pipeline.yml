@@ -1,0 +1,12 @@
+steps:
+  - name: ":eslint: Lint"
+    command: auto/lint
+    agents:
+      queue: default
+
+  - wait
+
+  - name: ":jest: Test"
+    command: auto/test
+    agents:
+      queue: default
