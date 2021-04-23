@@ -12,7 +12,7 @@ const StyledText = styled.p`
 const Home = () => {
   return (
     <StyledDiv>
-      <StyledText>welcome home</StyledText>
+      <StyledText>welcome home: pipeline</StyledText>
     </StyledDiv>
   );
 };
