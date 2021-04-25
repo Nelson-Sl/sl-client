@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`Home component renderer 1`] = `
-<styled.div>
-  <styled.p>
-    welcome home: pipeline
-  </styled.p>
-</styled.div>
-`;
