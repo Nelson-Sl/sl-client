@@ -1,8 +1,10 @@
 steps:
   - name: ":eslint: Lint"
     command: "npm install & npm run lint"
-    agents:
-      queue: default
+    plugins:
+      - docker#v3.8.0:
+          image: "node:latest"
+          always-pull: true
 
   - wait
 
