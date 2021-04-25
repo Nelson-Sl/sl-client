@@ -3,9 +3,9 @@ steps:
     command: "npm install & npm run lint"
     plugins:
       - docker#v3.8.0:
-          image: "node"
+          image: node
           always-pull: true
-          mount-checkout: false
+          workdir: /app
 
   - wait
 
