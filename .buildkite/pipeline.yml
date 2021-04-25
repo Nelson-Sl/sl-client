@@ -5,6 +5,7 @@ steps:
       - docker#v3.8.0:
           image: "node:latest"
           always-pull: true
+          mount-checkout: false
 
   - wait
 
