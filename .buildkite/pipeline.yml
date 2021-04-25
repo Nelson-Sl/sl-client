@@ -3,7 +3,7 @@ steps:
     command: "npm install & npm run lint"
     plugins:
       - docker#v3.8.0:
-          image: "node:latest"
+          image: "node"
           always-pull: true
           mount-checkout: false
 
